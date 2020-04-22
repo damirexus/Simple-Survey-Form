@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="form">
+        <h1 id="title">Please fill the form below</h1>
+        <p id="description">This is simple example of how we can build a HTML form</p>
+        <form id="survey-form">
+            <div id="upper">
+                <label for="name">Write your name here:</label><br>
+                <input id="name" placeholder="Your name" type="text" required></input><br>
+                <label for="email">Write your e-mail here:</label><br>
+                <input type="email" id="email" placeholder="Your e-mail" required></input><br>
+                <label for="number" required>Select your age:</label><br>
+                <input type="number" max="55" min="18" id="number" placeholder="?"></input><br>
+                <label for="dropdown">Select a number:</label><br>
+                <select name="SelectList" id="dropdown"><br>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select><br>
+            </div>
+            <p id="gender">Select you gender:</p>
+            <div id="left">
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <p id="answer">Select your answer:</p>
+            <div id="left">
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="vehicle3"> I have a boat</label><br>
+            </div>
+            <p>Write additional info:</p>
+            <textarea name="comment" id="text" cols="30" rows="10"></textarea><br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

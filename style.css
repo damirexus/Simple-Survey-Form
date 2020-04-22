@@ -1,0 +1,63 @@
+body {
+    background-image: url("Floral-Pattern-Background-Wallpaper-16341.jpg");
+}
+#form {
+    font-family: 'Crete Round', serif;
+    border: 1px solid;
+    border-radius: 100px 0 100px 0;
+    width: 700px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    -webkit-box-shadow: 21px 14px 39px 5px rgba(219,90,200,0.77);
+    -moz-box-shadow: 21px 14px 39px 5px rgba(219,90,200,0.77);
+    box-shadow: 21px 14px 39px 5px rgba(219,90,200,0.77);
+    color: #ADEFD1FF;
+    background-color:#00203FFF;
+}
+#email, #name{
+    border-radius: 15px;
+    padding-left: 10px;
+    height: 34px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#gender, #answer{
+    margin-bottom: 5px;
+}
+
+textarea {
+    border-radius: 40px 0 40px 0;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#number, #dropdown{
+    border-radius: 15px;
+    padding-left: 5px;
+    width: 43px;
+    
+}
+#number, #email, #name, #dropdown {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    width: 145px;
+    background-color: #ADEFD1FF;
+    border-radius: 15px;
+}
+
+#left {
+    text-align: left;
+    width: 123px;
+    margin: 0 auto;
+}
+
+#upper {
+    width: 200px;
+    text-align: left;
+    margin-left: 275px;
+}
